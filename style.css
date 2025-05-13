@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.parallax{
+    background-image: url('Images/parallax.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.navbar {
+    background-color: #867f7f91;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    width: 98%;
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 5px;
+}
+.navbar img{
+    height: 100%;
+}
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 10px;
+}
+.nav-links a{
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    color: white;
+}
+.nav-links .button{
+    padding: 5px;
+}
+.nav-links .button:hover{
+    margin-left: 20px;
+    background-color: #867f7fb7;
+    border-radius: 5px;
+}
+.content{
+    font-family: "Roboto", sans-serif;
+    background-color: #867f7f91;
+    color: white;
+    margin: 5%;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
