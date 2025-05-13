@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 .parallax{
-    background-image: url('Images/parallax.jpg');
+    background-image: url('Images/Parallax.jpg');
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -46,9 +46,9 @@ body{
 }
 .nav-links .button{
     padding: 5px;
+    margin-left: 20px;
 }
 .nav-links .button:hover{
-    margin-left: 20px;
     background-color: #867f7fb7;
     border-radius: 5px;
 }
@@ -61,4 +61,130 @@ body{
     justify-content: center;
     text-align: center;
     border-radius: 30px;
+    padding: 20px;
+}
+.content p{
+    margin: 0 5%;
+}
+.content .market-analysis-sections{
+    justify-content: left;
+    text-align: left;
+}
+.card {
+    display: inline-block;
+    position: relative;
+    max-width: 300px;
+    height: 320px;
+    background-color: #f2f8f9;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #9b9b9b, #6b6e6e);
+    font-family: "Roboto", sans-serif;
+}
+.card:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #2e2f31, #131518);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+}
+.card:hover:before {
+    transform: scale(33);
+}
+.card:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+}
+.card .card-title {
+    font-family: "Roboto", sans-serif;
+    color: #262626;
+    font-size: 1.5em;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+.card:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    overflow: auto; /* Habilita el scroll si el contenido es muy largo */
+    background-color: rgba(0,0,0,0.4); /* Fondo semi-transparente */
+}
+
+.modal-content {
+    background-color: #575252c0;
+    margin: 15% auto; 
+    padding: 20px;
+    width: 70%; 
+    border-radius: 5px;
+    position: relative;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-buttons {
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#confirmar-button {
+    background-color: #5cb85c;
+    color: white;
+}
+
+#confirmar-button:hover {
+    background-color: #4cae4c;
+}
+
+#cancelar-button {
+    background-color: #f44336;
+    color: white;
+}
+
+#cancelar-button:hover {
+    background-color: #d32f2f;
 }
