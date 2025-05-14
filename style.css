@@ -127,13 +127,13 @@ body{
     top: 0;
     width: 100%; /* Ancho completo */
     height: 100%; /* Alto completo */
-    overflow: auto; /* Habilita el scroll si el contenido es muy largo */
+    overflow: hidden;
     background-color: rgba(0,0,0,0.4); /* Fondo semi-transparente */
 }
 
 .modal-content {
     background-color: #575252c0;
-    margin: 15% auto; 
+    margin: 15% 15%; 
     padding: 20px;
     width: 70%; 
     border-radius: 5px;
