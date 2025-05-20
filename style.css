@@ -143,7 +143,12 @@ body{
     justify-content: center;
     text-align: center;
 }
-
+.link{
+    color: #fff;
+}
+.link:visited{
+    color: #fff;
+}
 .close-button {
     color: #aaa;
     float: right;
@@ -187,4 +192,22 @@ body{
 
 #cancelar-button:hover {
     background-color: #d32f2f;
+}
+footer {
+    background-color: #000; /* Color de fondo negro */
+    color: #fff; /* Color del texto blanco */
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}
+
+footer p {
+    margin: 0 0 10px 0; /* Espacio debajo del párrafo de copyright */
+}
+.img{
+    border-radius: 10px;
+    margin: 5px;
+}
+h4{
+    font-weight: normal;
 }
