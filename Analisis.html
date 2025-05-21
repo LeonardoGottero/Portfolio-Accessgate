@@ -3,80 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analisis de mercado Accessgate</title>
+    <title>AccessGate</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href='Images/Favicon.png'>
+    <link rel="stylesheet" href="modal.css">
 </head>
 <body>
     <div class="navbar">
         <img src="Images/Favicon.png">
         <div class="nav-links">
             <div class="button"><li><a href="./index.html">Inicio</a></li></div>
-            <div class="button"><li><a href="./Analisis.html">Analisis de mercado</a></li></div>
+            <div class="button"><li><a href="./Analisis.html">Análisis</a></li></div>
             <div class="button"><li><a href="./Logo.html">Nuestro logo</a></li></div>
             <div class="button"><li><a href="./Tecnologias.html">Tecnologías</a></li></div>
-            <div class="button"><li id="gestion-button"><a href="">Pagina Oficial</a></li></div>
+            <div class="button"><li id="gestion-button"><a href="">Página Oficial</a></li></div>
         </div>
         <div class="dropdown-menu-toggle">
             <button class="menu-button">☰</button>
             <div class="dropdown-content">
                 <a href="./index.html">Inicio</a>
-                <a href="./Analisis.html">Analisis de mercado</a>
+                <a href="./Analisis.html">Análisis</a>
                 <a href="./Logo.html">Nuestro logo</a>
                 <a href="./Tecnologias.html">Tecnologías</a>
-                <a href="https://accessgate.onrender.com/">Pagina Oficial</a>
+                <a href="https://accessgate.onrender.com/">Página Oficial</a>
             </div>
         </div>
     </div>
     <div class="parallax">
         <div class="content">
-            <h1>Analisis de mercado</h1>
-            <div>
-                Hicimos una encuesta para saber que opinaba la gente sobre accessgate. Puedes ver la encuesta haciendo click <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLScNORMog0TXZdwDIJ3XAy07fLKQ-AqETWIrLbxfSbyBqXPwfA/viewform?usp=dialog">aquí</a>. 
-                <img class="img" src="Images/Encuesta.png" alt="Encuesta">
-                <h2>Conclusión</h2>
-                <div class="market-analysis-sections">
-                    <h4>
-                        La encuesta realizada acerca del proyecto de tesina AccessGate fue respondida principalmente por personas jóvenes, siendo la mayoría (36.4%) menores de 18 años y un 27.3% entre 18 y 25 años. Esto indica que el público objetivo tiene un perfil mayoritariamente joven. En cuanto al género, predominan los hombres (66.3%). <br>
-                        Respecto a la ocupación, un 36.4% estudia en el ITR3 y un 27.3% trabaja en relación de dependencia. También hay una combinación entre estudio y trabajo, lo que muestra una diversidad en la rutina de los encuestados.<br>
-                        Sobre la infraestructura, el 54.5% indicó que su institución/empresa posee un portón, lo que representa una mayoría leve. Esto es relevante para el contexto de uso del producto “AccessGate”.<br>
-                        En cuanto a la percepción del producto, el 45.5% lo considera útil, aunque también se identificaron opiniones divididas: un 18.2% piensa que no lo usaría, otro 18.2% cree que no es útil y el restante opina que necesita mejoras. Esto sugiere que, si bien hay una buena recepción inicial, aún hay espacio para mejorar el producto o comunicar mejor su utilidad.<br>
-                        Respecto a la disposición de pago, la mayoría (45.5%) estaría dispuesta a pagar entre 50 y 99 dólares, mientras que el resto se divide entre montos menores y mayores. Esto puede orientar el precio del producto dentro de ese rango intermedio.<br>
-                        Finalmente, la gran mayoría (90.9%) no conoce un producto similar, lo que representa una oportunidad de innovación y posicionamiento en el mercado. Sin embargo, la intención de adopción por parte de instituciones con portones aún no es alta, ya que sólo un 9.1% votó afirmativamente y un 54.5% respondió “tal vez”.<br>
-                    </h4>
-                </div>
-                <h1>Graficas</h1>
-                <h2>Preguntas sobre los encuestados</h2>
-                <h3>Edad</h3>
-                <img class="imgraf" src="Images/Edades.png" alt="Edades">
-                <h3>Genero</h3>
-                <img class="imgraf" src="Images/Genero.png" alt="Genero">
-                <h3>¿La empresa/organización/institución a la que asistes cuenta con un portón?</h3>
-                <img class="imgraf" src="Images/Porton.png" alt="¿La empresa/organización/institución a la que asistes cuenta con un portón?">
-                <h2>Preguntas sobre Accessgate</h2>
-                <h3>Opinion sobre el producto</h3>
-                <img class="imgraf" src="Images/Opinion.png" alt="Opinion">
-                <h3>Precio</h3>
-                <img class="imgraf" src="Images/Coste.png" alt="Precio">
-                <h3>¿Le gustaría que su empresa/organización/institución tenga un dispositivo AccessGate?</h3>
-                <img class="imgraf" src="Images/Quieres.png" alt="¿Le gustaría que su empresa/organización/institución tenga un dispositivo AccessGate?">
-            </div>
+            <h1>Análisis</h1>
+            <h2>Se han hecho diversos análisis sobre el producto</h2>
+            <button class="cta">
+                <span class="hover-underline-animation"><a class="button" href="./Analisis/Mercado.html">Análisis de mercado</a></span>
+            </button>
+            <button class="cta">
+                <span class="hover-underline-animation"><a class="button" href="./Analisis/Competencia.html">Análisis de competencia</a></span>
+            </button>
         </div>
     </div>
+
     <div id="modal-confirmacion" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
             <h1>¿Estás seguro?</h1>
-            <p>Te diriges a la pagina oficial de Accessgate.</p>
+            <p>Te diriges a la página oficial de Accessgate.</p>
             <div class="modal-buttons">
-                <button id="confirmar-button">Sí, estoy seguro</button>
-                <button id="cancelar-button">Cancelar</button>
+                <button id="confirmar-button">Sí, estoy seguro.</button>
+                <button id="cancelar-button">Cancelar.</button>
             </div>
         </div>
     </div>
     <footer>
         <p>&copy; 2025 AccessGate. Todos los derechos reservados.</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
