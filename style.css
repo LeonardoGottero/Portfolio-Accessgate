@@ -217,6 +217,25 @@ footer p {
     margin: 5px;
     width: 100%;
 }
+.tresd{
+    border-radius: 10px;
+}
 h4{
     font-weight: normal;
+}
+.tech{
+    display: flex;
+    width: 100%;
+}
+.contenedor-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626b9;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 3px;
+}
+.contenedor-flex h2 {
+    text-align: center;
 }
