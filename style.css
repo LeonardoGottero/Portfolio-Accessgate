@@ -133,7 +133,6 @@ body{
     overflow: hidden;
     background-color: rgba(0,0,0,0.4); /* Fondo semi-transparente */
 }
-
 .modal-content {
     background-color: #575252c0;
     margin: 15% 15%; 
