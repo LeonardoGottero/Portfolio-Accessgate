@@ -384,21 +384,23 @@ body::-webkit-scrollbar-thumb:hover {
   border: none;
   background: none;
   cursor: pointer;
+  border-radius: 10px;
+  background-color: #262626;
+  padding: 20px;
 }
 .cta a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .cta span {
-  padding-bottom: 7px;
+  padding: 10px;
   letter-spacing: 2px;
   font-size: 14px;
-  padding-right: 15px;
   text-transform: uppercase;
 }
 .hover-underline-animation {
   position: relative;
-  color: black;
+  color: white;
   padding-bottom: 20px;
 }
 .hover-underline-animation:after {
@@ -409,7 +411,7 @@ body::-webkit-scrollbar-thumb:hover {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000000;
+  background-color: white;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
