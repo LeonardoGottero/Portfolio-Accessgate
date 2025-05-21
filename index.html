@@ -6,20 +6,32 @@
     <title>AccessGate</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href='Images/Favicon.png'>
-    <link rel="stylesheet" href="modal.css"> </head>
+    <link rel="stylesheet" href="modal.css">
+</head>
 <body>
     <div class="navbar">
         <img src="Images/Favicon.png">
-        <ul class="nav-links">
+        <div class="nav-links">
             <div class="button"><li><a href="./index.html">Inicio</a></li></div>
             <div class="button"><li><a href="./Analisis.html">Analisis de mercado</a></li></div>
             <div class="button"><li><a href="./Logo.html">Nuestro logo</a></li></div>
             <div class="button"><li><a href="./Tecnologias.html">Tecnologías</a></li></div>
-            <div class="button"><li id="gestion-button"><a href="">Pagina Oficial</a></li></div> </ul>
+            <div class="button"><li id="gestion-button"><a href="">Pagina Oficial</a></li></div>
+        </div>
+        <div class="dropdown-menu-toggle">
+            <button class="menu-button">☰</button>
+            <div class="dropdown-content">
+                <a href="./index.html">Inicio</a>
+                <a href="./Analisis.html">Analisis de mercado</a>
+                <a href="./Logo.html">Nuestro logo</a>
+                <a href="./Tecnologias.html">Tecnologías</a>
+                <a href="https://accessgate.onrender.com/">Pagina Oficial</a>
+            </div>
+        </div>
     </div>
     <div class="parallax">
         <div class="content">
-            <img src="Images/Favicon.png"><br>
+            <img class="logo" src="Images/Favicon.png"><br>
             <div class="card">
                 <p class="card-title">
                     Nos complace ofrecerte una solución eficiente y segura para controlar el acceso a tu empresa.
@@ -46,7 +58,7 @@
     <div id="modal-confirmacion" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <h1>¿Estás seguro?</h1> 
+            <h1>¿Estás seguro?</h1>
             <p>Te diriges a la pagina oficial de Accessgate.</p>
             <div class="modal-buttons">
                 <button id="confirmar-button">Sí, estoy seguro.</button>
@@ -58,6 +70,6 @@
         <p>&copy; 2025 AccessGate. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="script.js"></script> 
-    </body>
+    <script src="script.js"></script>
+</body>
 </html>

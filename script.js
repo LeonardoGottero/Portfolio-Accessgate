@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const cancelarButton = document.getElementById('cancelar-button');
     const closeButton = document.querySelector('.close-button');
 
+    const dropdownMenuToggle = document.querySelector('.dropdown-menu-toggle');
+    const menuButton = document.querySelector('.menu-button');
+
     gestionButton.addEventListener('click', function(event) {
         event.preventDefault(); // Evita la redirección inmediata
         modal.style.display = 'block';
@@ -26,6 +29,18 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('click', function(event) {
         if (event.target == modal) {
             modal.style.display = 'none';
+        }
+    });
+
+    // Toggle para el menú desplegable
+    menuButton.addEventListener('click', function() {
+        dropdownMenuToggle.classList.toggle('active');
+    });
+
+    // Cierra el menú desplegable si se hace clic fuera de él
+    window.addEventListener('click', function(event) {
+        if (!dropdownMenuToggle.contains(event.target) && !menuButton.contains(event.target)) {
+            dropdownMenuToggle.classList.remove('active');
         }
     });
 });
