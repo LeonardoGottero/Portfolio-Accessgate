@@ -69,6 +69,9 @@ body{
 .content .market-analysis-sections{
     justify-content: left;
     text-align: left;
+    background-color: #262626b9;
+    padding: 0 1%;
+    border-radius: 10px;
 }
 .card {
     display: inline-block;
