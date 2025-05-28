@@ -419,3 +419,47 @@ body::-webkit-scrollbar-thumb:hover {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+.table-container {
+    width:  100%;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+td{
+    color: #000;
+}
+th {
+    background-color: #333333; 
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+th:first-child,
+td:first-child {
+    width: 30%;
+    font-weight: bold; 
+    text-align: left; 
+    padding-right: 20px; 
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+tr:hover {
+    background-color: #e0e0e0;
+}
+tbody tr:last-child td {
+    border-bottom: none;
+}
