@@ -76,6 +76,27 @@ body{
     padding: 0 1%;
     border-radius: 10px;
 }
+.supercontent{
+    font-family: "Roboto", sans-serif;
+    background-color: #867f7f91;
+    color: white;
+    width: 100%;
+    max-width: 97%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+.supercontent p{
+    margin: 0 5%;
+}
+.supercontent .market-analysis-sections{
+    justify-content: left;
+    text-align: left;
+    background-color: #262626b9;
+    padding: 0 1%;
+    border-radius: 10px;
+}
 .card {
     display: inline-block;
     position: relative;
