@@ -3,10 +3,10 @@ body{
     margin: 0;
     padding: 0;
     background-color: #000;
-    background-image: url('Images/Parallax.jpg');
+    background-image: url('Images/Parallax.png');
 }
 .parallax{
-    background-image: url('Images/Parallax.jpg');
+    background-image: url('Images/Parallax.png');
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -17,7 +17,7 @@ body{
     padding-bottom: 20%;
 }
 .navbar {
-    background-color: #867f7f91;
+    background-color: #859ad391;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -51,12 +51,12 @@ body{
     margin-left: 20px;
 }
 .nav-links .button:hover{
-    background-color: #867f7fb7;
+    background-color: #859ad391;
     border-radius: 5px;
 }
 .content{
     font-family: "Roboto", sans-serif;
-    background-color: #867f7f91;
+    background-color: #859ad391;
     color: white;
     margin: 10% 5%;
     width: 90%;
@@ -78,7 +78,7 @@ body{
 }
 .supercontent{
     font-family: "Roboto", sans-serif;
-    background-color: #867f7f91;
+    background-color: #859ad391;
     color: white;
     width: 100%;
     max-width: 97%;
@@ -118,7 +118,7 @@ body{
     z-index: -1;
     top: -16px;
     right: -16px;
-    background: linear-gradient(135deg, #2e2f31, #131518);
+    background: linear-gradient(135deg, #1a3556, #0A2342);
     height: 32px;
     width: 32px;
     border-radius: 32px;
@@ -135,7 +135,7 @@ body{
 }
 .card .card-title {
     font-family: "Roboto", sans-serif;
-    color: #262626;
+    color: #000000;
     font-size: 1.5em;
     line-height: normal;
     font-weight: 700;
@@ -158,7 +158,7 @@ body{
     background-color: rgba(0,0,0,0.4); /* Fondo semi-transparente */
 }
 .modal-content {
-    background-color: #575252c0;
+    background-color: #8096d491;
     margin: 15% 15%;
     padding: 20px;
     width: 70%;
@@ -220,7 +220,7 @@ body{
     background-color: #d32f2f;
 }
 footer {
-    background-color: #000; /* Color de fondo negro */
+    background-color: #0A2342; /* Color de fondo negro */
     color: #fff; /* Color del texto blanco */
     padding: 20px;
     text-align: center;
@@ -463,7 +463,7 @@ td{
     color: #000;
 }
 th {
-    background-color: #333333; 
+    background-color: #0A2342; 
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
