@@ -481,3 +481,24 @@ tr:hover {
 tbody tr:last-child td {
     border-bottom: none;
 }
+.imgrrss{
+    border-radius: 10px;
+    width: 70%;
+    height: auto;
+}
+.imgbanner{
+    border-radius: 10px;
+    width: 70%;
+    height: auto;
+}
+.tarjeta {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+}
+.imgtar {
+  width: 40%;
+  margin: 10px;
+}
