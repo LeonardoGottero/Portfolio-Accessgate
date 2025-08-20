@@ -502,3 +502,7 @@ tbody tr:last-child td {
   width: 40%;
   margin: 10px;
 }
+.vid{
+    width: 70%;
+    border-radius: 10px;
+}
