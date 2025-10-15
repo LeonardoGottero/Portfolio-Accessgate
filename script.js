@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     confirmarButton.addEventListener('click', function() {
-        window.location.href = 'https://accessgate.onrender.com/'; // Redirige si se confirma
+        window.location.href = 'https://accessgate.site/'; // Redirige si se confirma
     });
 
     cancelarButton.addEventListener('click', function() {
